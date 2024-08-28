@@ -25,7 +25,6 @@ urlpatterns = [
 
     path('cor/', include([
         path('learndj/', cv.learn_django),
-        path('learnpy/', cv.learn_python),
         ])),
     path('fe/', include([
         path('feesdj/', fv.fees_django)
